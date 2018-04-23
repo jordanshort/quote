@@ -1,0 +1,33 @@
+.panel {
+    width: 800px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    margin: auto;
+    margin-top: 15px;
+    text-align: left
+}
+
+.panel-header {
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    background: #d9edf7;
+    padding-left: 10px;
+    display: flex;
+    align-content: center
+}
+
+.panel-body {
+    padding-left: 10px;
+    color: #0275d8;
+}
+
+#title {
+    font-size: 17px;
+    font-weight: 600;    
+}
+
+#source {
+    font-size: 13px;
+    margin-left: 15px;
+}
+

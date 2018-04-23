@@ -1,0 +1,65 @@
+.quote {
+    margin-top: 50px;
+}
+
+.logo{
+    grid-area: logo;
+}
+
+.symbol{
+    grid-area: symbol;
+    font-weight: 700;
+    color: #fff;
+}
+
+.company{
+    grid-area: company;
+    color: #fff;
+}
+
+.price{
+    grid-area: quote;
+    font-weight: 700;
+    color: #fff;
+}
+
+.time{
+    grid-area: time;
+    color: #fff;
+}
+
+.change{
+    grid-area: change;
+    color: #fff;
+}
+
+.price h1 {
+    transform: scaleY(1.3);    
+}
+
+.quote-box {
+    margin: auto;
+    padding: 10px;
+    width: 424px;
+    display: grid;
+    grid-template-areas: 
+    'symbol symbol logo'
+    'company company logo'
+    'quote change change'
+    'quote time time';
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
+    border-radius: 2px;
+}
+
+.quote-box div {
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}

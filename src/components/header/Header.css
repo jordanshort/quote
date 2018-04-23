@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    min-width: 678px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.header h3 {
+    margin: 20px 0;
+}
+
+.input-group {
+    width: 33%;
+    min-width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+}

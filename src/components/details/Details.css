@@ -1,0 +1,19 @@
+table {
+    width: 600px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+td {
+    border: 1px solid #e5e5e5
+}
+
+tr:nth-child(even){
+    background: #e5e5e5;
+}
+
+td:nth-child(odd){
+    font-weight: 700
+}
